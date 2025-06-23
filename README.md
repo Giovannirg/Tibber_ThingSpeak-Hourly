@@ -1,2 +1,11 @@
 # Tibber_ThingSpeak-Hourly
-Small script to connect to the tibber API and fetch and forward data to be shown on ThingSpeak.
+Small PYTHON script to connect to the tibber API and fetch and forward data to be shown on ThingSpeak.
+
+Run on a Raspeberry PI and set a cronjob to run everyhour + 10 minutes to make sure the hourly data is already available in the tibber API:
+
+ bash CMD:
+crontab -e
+
+ and add this line to the bottom of the file: 
+
+10 * * * * /usr/bin/python3 /home/YOUR_PATH_TO_FILE/... 
