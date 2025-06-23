@@ -9,3 +9,7 @@ crontab -e
  and add this line to the bottom of the file: 
 
 10 * * * * /usr/bin/python3 /home/YOUR_PATH_TO_FILE/... 
+
+An additional .m file was added to have a better visualisation of the data on matLab or on thingSpeak:
+
+https://thingspeak.mathworks.com
